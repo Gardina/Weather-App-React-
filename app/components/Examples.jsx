@@ -8,10 +8,10 @@ const Examples = (props) => {
       <p>Here are a few examples to try out:</p>
       <ol>
         <li>
-          <Link to='/?location=St.Petersburg'>St. Petersburg, Russia</Link>
+          <Link to='/?location=St.Petersburg' className ="links">St. Petersburg, Russia</Link>
         </li>
         <li>
-          <Link to='/?location=Rio'>Rio, Brazil</Link>
+          <Link to='/?location=Rio' className ="links">Rio, Brazil</Link>
         </li>
       </ol>
     </div>
